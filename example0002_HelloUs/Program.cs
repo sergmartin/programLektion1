@@ -1,3 +1,3 @@
 ﻿Console.Write("Введите свое имя: ");
-string name = Console.ReadLine();
+var name = Convert.ToString(Console.ReadLine());
 Console.WriteLine("Привет " + name + "!");
